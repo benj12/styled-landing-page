@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-y: scroll;"  >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section id="home">
+            <h1 class="title">Benjamin Williams</h1>
+        </section>
+        <div>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="about-me">
+            <section id="about">
+                <h2 class="hero-title">About Me</h2>
+                <br><br>
+                <p id="hero-description"><strong>Learning Full Stack Software Development</strong></p>
+                <p class="hero-introduction">I'm Benjamin Williams, an Implementation Consultant II that is transitioning to a
+                    full-stack software <br>
+                    I've built an app and am in the process of building another app which is larger scale than the first app.
+                    <br>I'm excited to be a full-stack engineer.
+                </p>
+                <div class="about-me-buttons">
+                    <a class="view-work" href="https://www.github.com/benj12">View My Work</a>
+                    <a class="contact a button" href="#contact">Contact Me</a>
+                </div>
+                
+            </section>
+            <figure id="about-image" class="profile">
+                <img class="profile-pic" src="assets/profile.png" alt="Profile pic of Benjamin"><br>
+            </figure>
+        </div>
+        <section id="skills">
+            <h2 class="skills-title">Skills & Experience</h2>
+            <div class="cards">
+                <div class="left-side">
+                    <h2 class="header">Technical Skills</h2>
+                    <p class="technical-skills">Flutter Mobile App Development</p>
+                    <p class="technical-skills">Git</p>
+                    <p class="technical-skills">React-Native Web Development</p>
+                    <p class="technical-skills">React-Native App Development</p>
+                </div>
+                <div class="center">
+                    <h2 class="header">Soft Skills</h2>
+                    <p class="soft-skills">Leadership</p>
+                    <p class="soft-skills">Communication</p>
+                    <p class="soft-skills">Teamwork</p>
+                </div>
+                <div class="right-side">
+                    <h2 class="header">Currently Learning</h2>
+                    <p class="learn">Full Stack Web Development</p>
+                    <p class="learn">Physics</p>
+                    <p class="learn">C#</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="contact-title">Connect With Me</h2>
+            <div class="contact-links">
+            <p class="email"><strong>Email:</strong><span><a href="mailto:fakeemail@email.com">fakeemail@email.com</a></span></p>
+            <p class="linkedin"><strong>LinkedIn:</strong><span><a href="https://www.linkedin.com/in/benjaminwilliamscs">www.linkedin.com/in/benjaminwilliamscs/</a></span></p>
+            <p class="github"><strong>GitHub:</strong><span><a href="https://www.github.com/benj12">www.github.com/benj12</a></span></p>
+            </div>
+        </section>
+        <section id="send-message">
+            <h2 class="send-message-title">Send Me A Message</h2>
+
+            <div class="form">
+                <form action="post" class="form-container">
+                    <div id="form-name">
+                        <label for="name">Your Name:</label>
+                        <input type="text" name="your-name" id="name" aria-required required>
+                    </div>
+                    <div id="form-email">
+                        <label for="email">Your Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div id="form-message">
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" placeholder="Enter your message here" rows="1"></textarea>
+                        <button id="submit-button" type="submit">Submit Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="contact-info">
+            <div class="contact-details">
+                <div id="left-side">
+                    <h3 id="left-side-header">Benjamin Williams</h3>
+                    <br>
+                    <p id="left-side-p">Transitioning from consulting to full-stack software engineering.</p>
+                </div>
+                <div id="footer-center">
+                    <h3>Quick Links</h3>
+                    <ul id="quick-links-list">
+                        <li><a style="color: white;" class="quick-links-a" href="#home">Home</a></li>
+                        <li><a style="color: white;" href="#about" class="quick-links-a">About</a></li>
+                        <li><a style="color: white;" class="quick-links-a" href="#skills">Skills</a></li>
+                    </ul>
+                </div>
+                <div id="right-side">
+                    <h3>Contact</h3>
+                    <p class="right-side-footer">Email: <a id="contact-email-footer"
+                            href="mailto:fakeemail@gmail.com">fakeemail@gmail.com</a></p>
+                    <p class="right-side-footer">Phone: (123)456-7891</p>
+                </div>
+            </div>
+            <hr>
+        </section>
+    
+        <div class="copyright-container">
+            <p class="copyright">&copy; 2025 Benjamin Williams.</p>
+            <p class="copyright-rule">All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+
+</html>
